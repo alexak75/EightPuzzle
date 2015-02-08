@@ -7,4 +7,6 @@ public class TestClass {
     // Testing Git
 
     // Another comment
+
+    // JRoosma's Comment
 }
