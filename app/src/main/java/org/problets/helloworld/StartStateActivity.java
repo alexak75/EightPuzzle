@@ -29,7 +29,7 @@ public class StartStateActivity extends Activity {
 
 	/** Respond to the button that is pressed */
 	public void respond( View view ){
-				
+		/*
 		switch( view.getId() )
 		{
 		case R.id.topleft: 
@@ -52,7 +52,7 @@ public class StartStateActivity extends Activity {
 		case R.id.bottomright: updateButton( 8 );
 		break;
 		}
-			
+			*/
 	
 		if( isDone() )
 		{
@@ -76,7 +76,8 @@ public class StartStateActivity extends Activity {
 	
 	/** Updates button faces with appropriate strings */
 	private void updateButtons() {
-		((Button) findViewById( R.id.topleft )).setText( convert( startState[0] ) );
+		/*
+        ((Button) findViewById( R.id.topleft )).setText( convert( startState[0] ) );
 		((Button) findViewById( R.id.topcenter)).setText( convert( startState[1] ) );
 		((Button) findViewById( R.id.topright)).setText( convert( startState[2] ) );
 		((Button) findViewById( R.id.midleft )).setText( convert( startState[3] ) );
@@ -85,7 +86,7 @@ public class StartStateActivity extends Activity {
 		((Button) findViewById( R.id.bottomleft )).setText( convert( startState[6] ) );
 		((Button) findViewById( R.id.bottomcenter)).setText( convert( startState[7] ) );
 		((Button) findViewById( R.id.bottomright)).setText( convert( startState[8] ) );
-		
+		*/
 	}
 	
 	/** Converts number to string, 0 to blank string */

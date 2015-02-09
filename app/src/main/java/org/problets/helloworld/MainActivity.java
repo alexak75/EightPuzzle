@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 	
 	/** Respond to the button that is pressed */
 	public void respond( View view ){
-				
+		/*
 		switch( view.getId() )
 		{
 		case R.id.topleft: makeMove( 0 );
@@ -54,6 +54,7 @@ public class MainActivity extends Activity {
 		case R.id.bottomright: makeMove( 8 );
 		break;
 		}
+        */
 		// ((Button) view).setText( "" );
 		
 		// Increment the number of attempts
@@ -226,7 +227,8 @@ public class MainActivity extends Activity {
 	
 	/** Updates button faces with appropriate strings */
 	private void updateButtons( int [] currentState ){
-		((Button) findViewById( R.id.topleft )).setText( convert( currentState[0] ) );
+		/*
+        ((Button) findViewById( R.id.topleft )).setText( convert( currentState[0] ) );
 		((Button) findViewById( R.id.topcenter)).setText( convert( currentState[1] ) );
 		((Button) findViewById( R.id.topright)).setText( convert( currentState[2] ) );
 		((Button) findViewById( R.id.midleft )).setText( convert( currentState[3] ) );
@@ -235,7 +237,7 @@ public class MainActivity extends Activity {
 		((Button) findViewById( R.id.bottomleft )).setText( convert( currentState[6] ) );
 		((Button) findViewById( R.id.bottomcenter)).setText( convert( currentState[7] ) );
 		((Button) findViewById( R.id.bottomright)).setText( convert( currentState[8] ) );
-		
+		*/
 	}
 	
 	/** Converts number to string, 0 to blank string */
