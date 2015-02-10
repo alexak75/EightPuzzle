@@ -1,2 +1,2 @@
-/Users/alexak75/AndroidStudioProjects/EightPuzzle/app/build/intermediates/classes/debug
-/Users/alexak75/AndroidStudioProjects/EightPuzzle/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-559c6a48f591152f4a26dcd9ec51b49fb387c4f4.jar
+/Users/jordanroosma/AndroidStudioProjects/EightPuzzle/app/build/intermediates/classes/debug
+/Users/jordanroosma/AndroidStudioProjects/EightPuzzle/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-c463bed3e13f15917470b175594bb1e9fce0020b.jar

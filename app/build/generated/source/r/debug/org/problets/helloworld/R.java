@@ -14,16 +14,9 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bottomcenter=0x7f070007;
-        public static final int bottomleft=0x7f070006;
-        public static final int bottomright=0x7f070008;
-        public static final int menu_settings=0x7f070009;
-        public static final int midcenter=0x7f070004;
-        public static final int midleft=0x7f070003;
-        public static final int midright=0x7f070005;
-        public static final int topcenter=0x7f070001;
-        public static final int topleft=0x7f070000;
-        public static final int topright=0x7f070002;
+        public static final int activity_main_xml=0x7f070000;
+        public static final int center=0x7f070001;
+        public static final int menu_settings=0x7f070002;
     }
     public static final class layout {
         public static final int activity_display_message=0x7f030000;
