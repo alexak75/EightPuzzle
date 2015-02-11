@@ -1,0 +1,2 @@
+/Users/jordanroosma/AndroidStudioProjects/EightPuzzle/app/build/intermediates/classes/debug
+/Users/jordanroosma/AndroidStudioProjects/EightPuzzle/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-c463bed3e13f15917470b175594bb1e9fce0020b.jar
