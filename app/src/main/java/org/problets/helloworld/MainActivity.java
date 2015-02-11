@@ -40,14 +40,17 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    EditText textBox = (EditText)findViewById(R.id.users_dimension_edit_text);
+
 
     public void onSendUserDimension(View view) {
-
+        EditText textBox = (EditText)findViewById(R.id.users_dimension_edit_text);
         Intent getDimensionScreenIntent = new Intent (this, SecondScreenActivity.class);
-
         getDimensionScreenIntent.putExtra("callingActivity", Integer.parseInt(textBox.getText().toString()));
-
-        startActivity(getDimensionScreenIntent);
+        setResult(RESULT_OK, getDimensionScreenIntent);
+        final int result = Integer.parseInt(textBox.getText().toString());
+        startActivityForResult(getDimensionScreenIntent, result);
+        finish();
     }
+
+
 }
