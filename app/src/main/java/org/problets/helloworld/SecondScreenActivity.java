@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class SecondScreenActivity extends Activity {
@@ -18,6 +19,9 @@ public class SecondScreenActivity extends Activity {
         Intent activityThatCalled = getIntent();
 
         String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
+
+        TextView callingActivityMessage = (TextView)
+                findViewById(R.id.users_dimension_edit_text);
     }
 
     @Override

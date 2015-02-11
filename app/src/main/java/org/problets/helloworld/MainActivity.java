@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 
 public class MainActivity extends Activity {
@@ -39,11 +40,13 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    EditText textBox = (EditText)findViewById(R.id.users_dimension_edit_text);
+
     public void onSendUserDimension(View view) {
 
         Intent getDimensionScreenIntent = new Intent (this, SecondScreenActivity.class);
 
-        getDimensionScreenIntent.putExtra("callingActivity", "MainActivity");
+        getDimensionScreenIntent.putExtra("callingActivity", Integer.parseInt(textBox.getText().toString()));
 
         startActivity(getDimensionScreenIntent);
     }
