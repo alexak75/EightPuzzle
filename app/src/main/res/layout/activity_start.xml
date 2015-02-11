@@ -1,0 +1,38 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="24"
+    android:rowCount="130"
+    android:id="@+id/activity_main.xml">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_row="55"
+        android:layout_column="23"
+        android:clickable="false"
+        android:editable="true"
+        android:enabled="true"
+        android:password="false"
+        android:textAppearance="@android:color/background_light"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Maze Size" />
+
+    <Button
+       android:layout_width="375dp"
+       android:layout_height="68dp"
+       android:text="Tap to generate maze"
+       android:id="@+id/center"
+       android:onClick="respond"
+    android:layout_row="129"
+    android:layout_column="23"
+    android:layout_gravity="center"
+        android:clickable="true"
+        android:nestedScrollingEnabled="true" />
+
+</GridLayout>
