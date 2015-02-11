@@ -40,7 +40,7 @@ public class Point {
     public void setY(int value) {
         this.y_value = value;
     }
-    public void setLocation(int x, int y) {
+    public void setCoordinates(int x, int y) {
         this.setX(x);
         this.setY(y);
     }
