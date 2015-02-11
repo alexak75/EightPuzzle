@@ -3,6 +3,7 @@ package org.problets.helloworld;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -40,15 +41,15 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-
-
     public void onSendUserDimension(View view) {
         EditText textBox = (EditText)findViewById(R.id.users_dimension_edit_text);
         Intent getDimensionScreenIntent = new Intent (this, SecondScreenActivity.class);
         getDimensionScreenIntent.putExtra("callingActivity", Integer.parseInt(textBox.getText().toString()));
+
+        Log.v("Test", "Test log!!!");
+
         setResult(RESULT_OK, getDimensionScreenIntent);
-        final int result = Integer.parseInt(textBox.getText().toString());
-        startActivityForResult(getDimensionScreenIntent, result);
+        startActivity(getDimensionScreenIntent);
         finish();
     }
 

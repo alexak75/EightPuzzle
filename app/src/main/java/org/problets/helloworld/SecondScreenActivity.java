@@ -49,10 +49,10 @@ public class SecondScreenActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
+/**
         TextView t = (TextView)findViewById(R.id.testView);
         t.setText(data.getStringExtra("callingActivity"));
-
+*/
 
     }
 }
