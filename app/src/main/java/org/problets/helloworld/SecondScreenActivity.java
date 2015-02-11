@@ -17,8 +17,8 @@ public class SecondScreenActivity extends Activity {
 
         Intent activityThatCalled = getIntent();
 
+        String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
