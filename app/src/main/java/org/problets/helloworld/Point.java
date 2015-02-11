@@ -6,6 +6,16 @@ package org.problets.helloworld;
 public class Point {
     private int x_value, y_value;
 
+    public Point() {
+        x_value = 0;
+        y_value = 0;
+    }
+
+    public Point(int x, int y) {
+        x_value = x;
+        y_value = y;
+    }
+
     public int getX() {
         return this.x_value;
     }
