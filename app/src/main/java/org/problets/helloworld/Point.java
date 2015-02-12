@@ -4,7 +4,7 @@ package org.problets.helloworld;
  * Created by Alex on 2/10/2015.
  */
 public class Point {
-    private int x_value, y_value;
+    private float x_value, y_value;
     // Since these points will be used for graphics,
     // the units are pixels
 
@@ -28,10 +28,10 @@ public class Point {
         }
     }
 
-    public int getX() {
+    public float getX() {
         return this.x_value;
     }
-    public int getY() {
+    public float getY() {
         return this.y_value;
     }
     public void setX(int value) {
