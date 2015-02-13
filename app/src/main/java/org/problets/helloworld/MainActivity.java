@@ -1,3 +1,10 @@
+//************************************************************
+//* Name:  Alexander Kuhles and Jacob Roosma                 *
+//* Project:  Project 1                                      *
+//* Class:  Artificial Intelligence                          *
+//* Date:  February 13, 2015                                 *
+//************************************************************
+
 package org.problets.helloworld;
 
 import android.app.Activity;
