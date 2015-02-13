@@ -33,6 +33,12 @@ public class Maze extends View {
         }
     }
 
+    // Checks the maze to ensure that there exists at least
+    // one complete path from the start cell to the end cell(s)
+    public boolean hasOneValidPath() {
+        return true; // TEMPORARY
+    }
+
     // Draws the maze on the Canvas object
     public void drawMaze(Canvas canvas, Maze maze) {
 
