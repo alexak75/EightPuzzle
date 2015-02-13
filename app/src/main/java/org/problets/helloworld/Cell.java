@@ -10,7 +10,9 @@ public class Cell {
     private Painter painter;
     private Wall top, left, bottom, right;
 
-    public Cell(Wall t, Wall l, Wall b, Wall r) {
+    // NOTE: EACH CELL IS 10x10 PIXELS
+
+    public Cell(Wall t, Wall b, Wall l, Wall r) {
         top = t;
         left = l;
         bottom = b;
@@ -42,5 +44,7 @@ public class Cell {
     Wall getRightWall() {
         return this.right;
     }
+
+
 
 }
