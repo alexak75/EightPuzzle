@@ -8,7 +8,8 @@ public class Point {
     // Since these points will be used for graphics,
     // the units are pixels
 
-    public Point() { // Default point
+    public Point() {
+    // Default point
         x_value = 0;
         y_value = 0;
     }
